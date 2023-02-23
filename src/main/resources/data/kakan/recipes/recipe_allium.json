@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:allium"
+    },
+    "1": {
+      "item": "minecraft:allium"
+    },
+    "2": {
+      "item": "minecraft:allium"
+    },
+    "3": {
+      "item": "minecraft:allium"
+    },
+    "5": {
+      "item": "minecraft:allium"
+    },
+    "6": {
+      "item": "minecraft:allium"
+    },
+    "7": {
+      "item": "minecraft:allium"
+    },
+    "8": {
+      "item": "minecraft:allium"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_allium_helmet",
+    "count": 1
+  }
+}

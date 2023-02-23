@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dandelion"
+    },
+    "1": {
+      "item": "minecraft:dandelion"
+    },
+    "2": {
+      "item": "minecraft:dandelion"
+    },
+    "3": {
+      "item": "minecraft:dandelion"
+    },
+    "5": {
+      "item": "minecraft:dandelion"
+    },
+    "6": {
+      "item": "minecraft:dandelion"
+    },
+    "7": {
+      "item": "minecraft:dandelion"
+    },
+    "8": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_dandelion_helmet",
+    "count": 1
+  }
+}

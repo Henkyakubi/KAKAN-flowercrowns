@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:azure_bluet"
+    },
+    "1": {
+      "item": "minecraft:azure_bluet"
+    },
+    "2": {
+      "item": "minecraft:azure_bluet"
+    },
+    "3": {
+      "item": "minecraft:azure_bluet"
+    },
+    "5": {
+      "item": "minecraft:azure_bluet"
+    },
+    "6": {
+      "item": "minecraft:azure_bluet"
+    },
+    "7": {
+      "item": "minecraft:azure_bluet"
+    },
+    "8": {
+      "item": "minecraft:azure_bluet"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_azure_bluet_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_orchid"
+    },
+    "1": {
+      "item": "minecraft:blue_orchid"
+    },
+    "2": {
+      "item": "minecraft:blue_orchid"
+    },
+    "3": {
+      "item": "minecraft:blue_orchid"
+    },
+    "5": {
+      "item": "minecraft:blue_orchid"
+    },
+    "6": {
+      "item": "minecraft:blue_orchid"
+    },
+    "7": {
+      "item": "minecraft:blue_orchid"
+    },
+    "8": {
+      "item": "minecraft:blue_orchid"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_blue_orchid_helmet",
+    "count": 1
+  }
+}

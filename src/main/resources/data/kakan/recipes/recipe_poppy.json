@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:poppy"
+    },
+    "1": {
+      "item": "minecraft:poppy"
+    },
+    "2": {
+      "item": "minecraft:poppy"
+    },
+    "3": {
+      "item": "minecraft:poppy"
+    },
+    "5": {
+      "item": "minecraft:poppy"
+    },
+    "6": {
+      "item": "minecraft:poppy"
+    },
+    "7": {
+      "item": "minecraft:poppy"
+    },
+    "8": {
+      "item": "minecraft:poppy"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_poppy_helmet",
+    "count": 1
+  }
+}
