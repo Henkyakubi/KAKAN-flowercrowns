@@ -1,0 +1,27 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:peony"
+    },
+    "3": {
+      "item": "minecraft:peony"
+    },
+    "5": {
+      "item": "minecraft:peony"
+    },
+    "7": {
+      "item": "minecraft:peony"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_peony_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:grass"
+    },
+    "1": {
+      "item": "minecraft:grass"
+    },
+    "2": {
+      "item": "minecraft:grass"
+    },
+    "3": {
+      "item": "minecraft:grass"
+    },
+    "5": {
+      "item": "minecraft:grass"
+    },
+    "6": {
+      "item": "minecraft:grass"
+    },
+    "7": {
+      "item": "minecraft:grass"
+    },
+    "8": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_grass_helmet",
+    "count": 1
+  }
+}

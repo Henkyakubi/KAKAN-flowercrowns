@@ -49,7 +49,7 @@
     "enchantability": 0,
     "toughness": 0.0,
     "equipSound": {
-      "value": "block.grass.place"
+      "value": "block.coral_block.break"
     },
     "repairItems": []
   }

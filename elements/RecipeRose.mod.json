@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#4"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#4"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrownOfRose.helmet"
+    },
+    "name": "recipe_rose",
+    "namespace": "mod"
+  }
+}

@@ -10,9 +10,6 @@
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
-    "onHelmetTick": {
-      "name": "CrownOfPoppyHelmetTickEvent"
-    },
     "creativeTab": {
       "value": "CUSTOM:KAKAN"
     },

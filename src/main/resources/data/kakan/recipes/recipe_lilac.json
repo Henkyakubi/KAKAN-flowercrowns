@@ -1,0 +1,27 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:lilac"
+    },
+    "3": {
+      "item": "minecraft:lilac"
+    },
+    "5": {
+      "item": "minecraft:lilac"
+    },
+    "7": {
+      "item": "minecraft:lilac"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_lilac_helmet",
+    "count": 1
+  }
+}

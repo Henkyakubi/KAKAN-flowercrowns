@@ -85,12 +85,12 @@ public class HandyAlliumProcedure extends KakanModElements.ModElement {
 							((ServerPlayerEntity) entity).inventory.markDirty();
 					}
 					if (!world.getWorld().isRemote) {
-						world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grass.step")),
-								SoundCategory.NEUTRAL, (float) 0.3, (float) 1);
+						world.playSound(null, new BlockPos((int) x, (int) y, (int) z), (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("block.coral_block.place")), SoundCategory.NEUTRAL, (float) 0.3, (float) 1);
 					} else {
 						world.getWorld().playSound(x, y, z,
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grass.step")),
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+										.getValue(new ResourceLocation("block.coral_block.place")),
 								SoundCategory.NEUTRAL, (float) 0.3, (float) 1, false);
 					}
 					world.addParticle(ParticleTypes.NOTE, x, y, z, 0, 0.1, 0);

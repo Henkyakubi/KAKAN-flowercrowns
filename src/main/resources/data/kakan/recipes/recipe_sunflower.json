@@ -1,0 +1,27 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sunflower"
+    },
+    "3": {
+      "item": "minecraft:sunflower"
+    },
+    "5": {
+      "item": "minecraft:sunflower"
+    },
+    "7": {
+      "item": "minecraft:sunflower"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_sunflower_helmet",
+    "count": 1
+  }
+}

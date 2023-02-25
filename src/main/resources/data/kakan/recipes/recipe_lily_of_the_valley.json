@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "1": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "2": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "3": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "5": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "6": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "7": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "8": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_lily_of_the_valley_helmet",
+    "count": 1
+  }
+}

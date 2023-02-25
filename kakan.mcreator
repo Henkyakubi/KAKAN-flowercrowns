@@ -691,26 +691,889 @@
           }
         ]
       }
+    },
+    {
+      "name": "CrownOfOxeyeDaisy",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_oxeye_daisy",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfOxeyeDaisyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_oxeye_daisy_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeOxeyeDaisy",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_oxeye_daisy"
+    },
+    {
+      "name": "HandyOxeyeDaisy",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_oxeye_daisy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfCornflower",
+      "type": "armor",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_cornflower",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfCornflowerHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_cornflower_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeCornflower",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_cornflower"
+    },
+    {
+      "name": "HandyCornflower",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_cornflower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfLilyOfTheValley",
+      "type": "armor",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lily_of_the_valley",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfLilyOfTheValleyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lily_of_the_valley_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeLilyOfTheValley",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_lily_of_the_valley"
+    },
+    {
+      "name": "HandyLilyOfTheValley",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_lily_of_the_valley",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfWitherRose",
+      "type": "armor",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_wither_rose",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfWitherRoseHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_wither_rose_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeWitherRose",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_wither_rose"
+    },
+    {
+      "name": "LilyPoisonAttack",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lily_poison_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfSweetBerry",
+      "type": "armor",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sweet_berry",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfSweetBerryHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sweet_berry_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeSweetBerry",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_sweet_berry"
+    },
+    {
+      "name": "HandySweetBerry",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_sweet_berry",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitherRoseAttack",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_rose_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfLilac",
+      "type": "armor",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lilac",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfLilacHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_lilac_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeLilac",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_lilac"
+    },
+    {
+      "name": "HandyLilac",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_lilac",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfRose",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_rose",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfRoseHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_rose_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeRose",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_rose"
+    },
+    {
+      "name": "HandyRose",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_rose",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfPeony",
+      "type": "armor",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_peony",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfPeonyHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_peony_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipePeony",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_peony"
+    },
+    {
+      "name": "HandyPeony",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_peony",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfSunflower",
+      "type": "armor",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sunflower",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfSunflowerHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_sunflower_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeSunflower",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_sunflower"
+    },
+    {
+      "name": "HandySunflower",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_sunflower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfGrass",
+      "type": "armor",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_grass",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "RecipeGrass",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_grass"
+    },
+    {
+      "name": "HandyGrass",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_grass",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfVariousFlowers",
+      "type": "armor",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_various_flowers",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "VariousFlowerBonemeal",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "various_flower_bonemeal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeVarious",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_various"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.kakan.crown_of_dandelion_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_lily_of_the_valley_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_sunflower_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_cornflower_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_dandelion_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_azure_bluet_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_blue_orchid_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_lily_of_the_valley_helmet": "Crown of Lily of the Valley",
       "item.kakan.crown_of_blue_orchid_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_cornflower_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_lilac_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_poppy_helmet": "Crown of Poppy",
-      "item.kakan.crown_of_red_tulip_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_peony_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_various_flowers_helmet": "Crown of Various Flowers",
       "item.kakan.crown_of_azure_bluet_helmet": "Crown of Azure Bluet",
+      "item.kakan.crown_of_peony_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_dandelion_helmet": "Crown of Dandelion",
-      "item.kakan.crown_of_allium_chestplate": "Crown Of Poppy Body",
-      "item.kakan.crown_of_azure_bluet_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_rose_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_rose_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_lily_of_the_valley_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_various_flowers_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_allium_helmet": "Crown of Allium",
+      "item.kakan.crown_of_various_flowers_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_dandelion_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_sweet_berry_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_sunflower_helmet": "Crown of Sunflower",
+      "item.kakan.crown_of_various_flowers_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_peony_helmet": "Crown of Peony",
+      "item.kakan.crown_of_sweet_berry_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_allium_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_pink_tulip_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_peony_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_sunflower_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_grass_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_poppy_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_red_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_pink_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_red_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_rose_helmet": "Crown of Rose",
+      "item.kakan.crown_of_lilac_helmet": "Crown of Lilac",
+      "item.kakan.crown_of_wither_rose_helmet": "Crown of Wither Rose",
+      "item.kakan.crown_of_grass_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_white_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_orange_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_dandelion_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_grass_helmet": "Crown of Grass",
+      "item.kakan.crown_of_lilac_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_oxeye_daisy_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_red_tulip_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_oxeye_daisy_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_sweet_berry_helmet": "Crown of Sweet Berry",
+      "item.kakan.crown_of_allium_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_cornflower_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_azure_bluet_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_sunflower_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_wither_rose_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_wither_rose_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_poppy_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_oxeye_daisy_helmet": "Crown of Oxeye Daisy",
+      "item.kakan.crown_of_lilac_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_rose_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_blue_orchid_helmet": "Crown of Blue Orchid",
       "item.kakan.crown_of_orange_tulip_helmet": "Crown of Orange Tulip",
       "itemGroup.tabkakan": "KAKAN",
@@ -718,20 +1581,18 @@
       "item.kakan.crown_of_white_tulip_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_pink_tulip_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_pink_tulip_helmet": "Crown of Pink Tulip",
+      "item.kakan.crown_of_lily_of_the_valley_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_wither_rose_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_orange_tulip_boots": "Crown Of Poppy Boots",
-      "item.kakan.crown_of_allium_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_white_tulip_leggings": "Crown Of Poppy Leggings",
-      "item.kakan.crown_of_pink_tulip_chestplate": "Crown Of Poppy Body",
-      "item.kakan.crown_of_poppy_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_sweet_berry_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_white_tulip_helmet": "Crown of White Tulip",
       "item.kakan.crown_of_red_tulip_helmet": "Crown of Red Tulip",
-      "item.kakan.crown_of_red_tulip_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_azure_bluet_leggings": "Crown Of Poppy Leggings",
-      "item.kakan.crown_of_pink_tulip_boots": "Crown Of Poppy Boots",
-      "item.kakan.crown_of_red_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_oxeye_daisy_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_orange_tulip_chestplate": "Crown Of Poppy Body",
-      "item.kakan.crown_of_white_tulip_boots": "Crown Of Poppy Boots",
-      "item.kakan.crown_of_orange_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_grass_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_cornflower_helmet": "Crown of Cornflower",
       "item.kakan.crown_of_poppy_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_blue_orchid_leggings": "Crown Of Poppy Leggings"
     }
@@ -739,7 +1600,7 @@
   "workspaceSettings": {
     "modid": "kakan",
     "modName": "KAKAN",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "author": "MCreator, Sawazan",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,

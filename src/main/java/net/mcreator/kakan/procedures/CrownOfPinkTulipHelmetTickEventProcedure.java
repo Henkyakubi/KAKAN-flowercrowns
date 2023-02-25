@@ -68,7 +68,7 @@ public class CrownOfPinkTulipHelmetTickEventProcedure extends KakanModElements.M
 				.getItem() == new ItemStack(CrownOfPinkTulipItem.helmet, (int) (1)).getItem())) {
 			if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.PINK_TULIP.getDefaultState().getBlock())) {
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 301, (int) 1, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 6001, (int) 1, (false), (false)));
 				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				if (!world.getWorld().isRemote) {
 					world.playSound(null, new BlockPos((int) x, (int) y, (int) z), (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
@@ -80,7 +80,7 @@ public class CrownOfPinkTulipHelmetTickEventProcedure extends KakanModElements.M
 							SoundCategory.NEUTRAL, (float) 0.3, (float) 1, false);
 				}
 				if (world instanceof ServerWorld) {
-					((ServerWorld) world).spawnParticle(ParticleTypes.FIREWORK, x, y, z, (int) 6, 0.2, 0.2, 0.2, 0.2);
+					((ServerWorld) world).spawnParticle(ParticleTypes.FIREWORK, x, (y + 0.5), z, (int) 12, 0.1, 0.1, 0.1, 0);
 				}
 			}
 		}

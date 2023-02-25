@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cornflower"
+    },
+    "1": {
+      "item": "minecraft:cornflower"
+    },
+    "2": {
+      "item": "minecraft:cornflower"
+    },
+    "3": {
+      "item": "minecraft:cornflower"
+    },
+    "5": {
+      "item": "minecraft:cornflower"
+    },
+    "6": {
+      "item": "minecraft:cornflower"
+    },
+    "7": {
+      "item": "minecraft:cornflower"
+    },
+    "8": {
+      "item": "minecraft:cornflower"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_cornflower_helmet",
+    "count": 1
+  }
+}

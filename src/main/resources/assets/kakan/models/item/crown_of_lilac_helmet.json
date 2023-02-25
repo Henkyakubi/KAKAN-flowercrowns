@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kakan:items/crown_of_lilac-v3"
+  }
+}

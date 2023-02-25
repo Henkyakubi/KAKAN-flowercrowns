@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DOUBLE_PLANT#5"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrownOfPeony.helmet"
+    },
+    "name": "recipe_peony",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:small_flowers"
+    },
+    "1": {
+      "tag": "minecraft:small_flowers"
+    },
+    "2": {
+      "tag": "minecraft:small_flowers"
+    },
+    "3": {
+      "tag": "minecraft:small_flowers"
+    },
+    "4": {
+      "item": "minecraft:bone_meal"
+    },
+    "5": {
+      "tag": "minecraft:small_flowers"
+    },
+    "6": {
+      "tag": "minecraft:small_flowers"
+    },
+    "7": {
+      "tag": "minecraft:small_flowers"
+    },
+    "8": {
+      "tag": "minecraft:small_flowers"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_various_flowers_helmet",
+    "count": 1
+  }
+}

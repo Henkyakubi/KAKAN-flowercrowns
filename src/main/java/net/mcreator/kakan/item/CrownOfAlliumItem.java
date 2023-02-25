@@ -54,7 +54,7 @@ public class CrownOfAlliumItem extends KakanModElements.ModElement {
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.grass.place"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.coral_block.break"));
 			}
 
 			public Ingredient getRepairMaterial() {

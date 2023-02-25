@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "1": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "2": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "3": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "5": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "6": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "7": {
+      "item": "minecraft:oxeye_daisy"
+    },
+    "8": {
+      "item": "minecraft:oxeye_daisy"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_oxeye_daisy_helmet",
+    "count": 1
+  }
+}
