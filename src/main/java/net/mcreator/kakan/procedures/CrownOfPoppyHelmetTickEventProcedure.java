@@ -35,11 +35,11 @@ public class CrownOfPoppyHelmetTickEventProcedure extends KakanModElements.ModEl
 		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get((int) 3) : ItemStack.EMPTY)
 				.getItem() == new ItemStack(CrownOfPoppyItem.helmet, (int) (1)).getItem())) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 6001, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 3001, (int) 1, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 6001, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SATURATION, (int) 3001, (int) 1, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 6001, (int) 1, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 3001, (int) 1, (false), (false)));
 		}
 	}
 

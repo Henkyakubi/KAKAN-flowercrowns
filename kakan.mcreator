@@ -1600,7 +1600,7 @@
   "workspaceSettings": {
     "modid": "kakan",
     "modName": "KAKAN",
-    "version": "0.1.4",
+    "version": "0.1.6",
     "author": "MCreator, Sawazan",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,

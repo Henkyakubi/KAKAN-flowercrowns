@@ -32,7 +32,7 @@ public class CrownOfRoseHelmetTickEventProcedure extends KakanModElements.ModEle
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
-		if ((!(((Entity) world
+		if ((((Entity) world
 				.getEntitiesWithinAABB(MonsterEntity.class,
 						new AxisAlignedBB((entity.getPosX()) - (20 / 2d), (entity.getPosY()) - (20 / 2d), (entity.getPosZ()) - (20 / 2d),
 								(entity.getPosX()) + (20 / 2d), (entity.getPosY()) + (20 / 2d), (entity.getPosZ()) + (20 / 2d)),
@@ -41,23 +41,8 @@ public class CrownOfRoseHelmetTickEventProcedure extends KakanModElements.ModEle
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 					}
-				}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(
-						null)) instanceof LivingEntity
-								? (((LivingEntity) ((Entity) world
-										.getEntitiesWithinAABB(MonsterEntity.class,
-												new AxisAlignedBB((entity.getPosX()) - (20 / 2d), (entity.getPosY()) - (20 / 2d),
-														(entity.getPosZ()) - (20 / 2d), (entity.getPosX()) + (20 / 2d),
-														(entity.getPosY()) + (20 / 2d), (entity.getPosZ()) + (20 / 2d)),
-												null)
-										.stream().sorted(new Object() {
-											Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
-												return Comparator
-														.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
-											}
-										}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(null)))
-												.getCreatureAttribute() == CreatureAttribute.UNDEAD)
-								: false))) {
-			((Entity) world
+				}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(null)) != null)) {
+			if ((!(((Entity) world
 					.getEntitiesWithinAABB(MonsterEntity.class,
 							new AxisAlignedBB((entity.getPosX()) - (20 / 2d), (entity.getPosY()) - (20 / 2d), (entity.getPosZ()) - (20 / 2d),
 									(entity.getPosX()) + (20 / 2d), (entity.getPosY()) + (20 / 2d), (entity.getPosZ()) + (20 / 2d)),
@@ -66,7 +51,33 @@ public class CrownOfRoseHelmetTickEventProcedure extends KakanModElements.ModEle
 						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 							return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
 						}
-					}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(null)).setFire((int) 2);
+					}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(
+							null)) instanceof LivingEntity
+									? (((LivingEntity) ((Entity) world
+											.getEntitiesWithinAABB(MonsterEntity.class,
+													new AxisAlignedBB((entity.getPosX()) - (20 / 2d), (entity.getPosY()) - (20 / 2d),
+															(entity.getPosZ()) - (20 / 2d), (entity.getPosX()) + (20 / 2d),
+															(entity.getPosY()) + (20 / 2d), (entity.getPosZ()) + (20 / 2d)),
+													null)
+											.stream().sorted(new Object() {
+												Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+													return Comparator
+															.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
+												}
+											}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(null)))
+													.getCreatureAttribute() == CreatureAttribute.UNDEAD)
+									: false))) {
+				((Entity) world
+						.getEntitiesWithinAABB(MonsterEntity.class,
+								new AxisAlignedBB((entity.getPosX()) - (20 / 2d), (entity.getPosY()) - (20 / 2d), (entity.getPosZ()) - (20 / 2d),
+										(entity.getPosX()) + (20 / 2d), (entity.getPosY()) + (20 / 2d), (entity.getPosZ()) + (20 / 2d)),
+								null)
+						.stream().sorted(new Object() {
+							Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+								return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
+							}
+						}.compareDistOf((entity.getPosX()), (entity.getPosY()), (entity.getPosZ()))).findFirst().orElse(null)).setFire((int) 2);
+			}
 		}
 	}
 }
