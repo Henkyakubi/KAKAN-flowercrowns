@@ -38,10 +38,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -383,6 +379,318 @@
           }
         ]
       }
+    },
+    {
+      "name": "CrownOfRedTulip",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_red_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfRedTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_red_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeRedTulip",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_red_tulip"
+    },
+    {
+      "name": "HandyRedTulip",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_red_tulip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfOrangeTulip",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_orange_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfOrangeTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_orange_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeOrangeTulip",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_orange_tulip"
+    },
+    {
+      "name": "HandyOrangeTulip",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_orange_tulip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrownOfWhiteTulip",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_white_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfWhiteTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_white_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HandyWhiteTulip",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_white_tulip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeWhiteTulip",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_white_tulip"
+    },
+    {
+      "name": "CrownOfPinkTulip",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_pink_tulip",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "CrownOfPinkTulipHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crown_of_pink_tulip_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipePinkTulip",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_pink_tulip"
+    },
+    {
+      "name": "HandyPinkTulip",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "handy_pink_tulip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -390,16 +698,12 @@
   "language_map": {
     "en_us": {
       "item.kakan.crown_of_dandelion_boots": "Crown Of Poppy Boots",
-      "itemGroup.tabkakan": "KAKAN",
-      "item.kakan.crown_of_allium_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_dandelion_chestplate": "Crown Of Poppy Body",
-      "item.kakan.crown_of_allium_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_azure_bluet_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_blue_orchid_boots": "Crown Of Poppy Boots",
-      "item.kakan.crown_of_poppy_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_blue_orchid_chestplate": "Crown Of Poppy Body",
-      "item.kakan.crown_of_azure_bluet_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_poppy_helmet": "Crown of Poppy",
+      "item.kakan.crown_of_red_tulip_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_azure_bluet_helmet": "Crown of Azure Bluet",
       "item.kakan.crown_of_dandelion_helmet": "Crown of Dandelion",
       "item.kakan.crown_of_allium_chestplate": "Crown Of Poppy Body",
@@ -407,8 +711,28 @@
       "item.kakan.crown_of_allium_helmet": "Crown of Allium",
       "item.kakan.crown_of_dandelion_leggings": "Crown Of Poppy Leggings",
       "item.kakan.crown_of_poppy_leggings": "Crown Of Poppy Leggings",
-      "item.kakan.crown_of_poppy_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_blue_orchid_helmet": "Crown of Blue Orchid",
+      "item.kakan.crown_of_orange_tulip_helmet": "Crown of Orange Tulip",
+      "itemGroup.tabkakan": "KAKAN",
+      "item.kakan.crown_of_allium_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_white_tulip_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_pink_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_pink_tulip_helmet": "Crown of Pink Tulip",
+      "item.kakan.crown_of_orange_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_allium_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_white_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_pink_tulip_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_poppy_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_white_tulip_helmet": "Crown of White Tulip",
+      "item.kakan.crown_of_red_tulip_helmet": "Crown of Red Tulip",
+      "item.kakan.crown_of_red_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_azure_bluet_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_pink_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_red_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_orange_tulip_chestplate": "Crown Of Poppy Body",
+      "item.kakan.crown_of_white_tulip_boots": "Crown Of Poppy Boots",
+      "item.kakan.crown_of_orange_tulip_leggings": "Crown Of Poppy Leggings",
+      "item.kakan.crown_of_poppy_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_blue_orchid_leggings": "Crown Of Poppy Leggings"
     }
   },

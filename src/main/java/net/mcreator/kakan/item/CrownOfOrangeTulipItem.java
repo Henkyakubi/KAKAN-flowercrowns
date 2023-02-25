@@ -17,7 +17,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.kakan.procedures.CrownOfPoppyHelmetTickEventProcedure;
+import net.mcreator.kakan.procedures.CrownOfOrangeTulipHelmetTickEventProcedure;
 import net.mcreator.kakan.itemgroup.KAKANItemGroup;
 import net.mcreator.kakan.KakanModElements;
 
@@ -25,17 +25,17 @@ import java.util.Map;
 import java.util.HashMap;
 
 @KakanModElements.ModElement.Tag
-public class CrownOfPoppyItem extends KakanModElements.ModElement {
-	@ObjectHolder("kakan:crown_of_poppy_helmet")
+public class CrownOfOrangeTulipItem extends KakanModElements.ModElement {
+	@ObjectHolder("kakan:crown_of_orange_tulip_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("kakan:crown_of_poppy_chestplate")
+	@ObjectHolder("kakan:crown_of_orange_tulip_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("kakan:crown_of_poppy_leggings")
+	@ObjectHolder("kakan:crown_of_orange_tulip_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("kakan:crown_of_poppy_boots")
+	@ObjectHolder("kakan:crown_of_orange_tulip_boots")
 	public static final Item boots = null;
-	public CrownOfPoppyItem(KakanModElements instance) {
-		super(instance, 2);
+	public CrownOfOrangeTulipItem(KakanModElements instance) {
+		super(instance, 24);
 	}
 
 	@Override
@@ -54,7 +54,7 @@ public class CrownOfPoppyItem extends KakanModElements.ModElement {
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.sand.place"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.ladder.place"));
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -63,7 +63,7 @@ public class CrownOfPoppyItem extends KakanModElements.ModElement {
 
 			@OnlyIn(Dist.CLIENT)
 			public String getName() {
-				return "crown_of_poppy";
+				return "crown_of_orange_tulip";
 			}
 
 			public float getToughness() {
@@ -73,7 +73,7 @@ public class CrownOfPoppyItem extends KakanModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(KAKANItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "kakan:textures/models/armor/crown_of_poppy-v2__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "kakan:textures/models/armor/crown_of_orange_tulip-v3__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override
@@ -85,9 +85,9 @@ public class CrownOfPoppyItem extends KakanModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					CrownOfPoppyHelmetTickEventProcedure.executeProcedure($_dependencies);
+					CrownOfOrangeTulipHelmetTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("crown_of_poppy_helmet"));
+		}.setRegistryName("crown_of_orange_tulip_helmet"));
 	}
 }

@@ -1,0 +1,39 @@
+{
+  "group": "kakan",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_tulip"
+    },
+    "1": {
+      "item": "minecraft:red_tulip"
+    },
+    "2": {
+      "item": "minecraft:red_tulip"
+    },
+    "3": {
+      "item": "minecraft:red_tulip"
+    },
+    "5": {
+      "item": "minecraft:red_tulip"
+    },
+    "6": {
+      "item": "minecraft:red_tulip"
+    },
+    "7": {
+      "item": "minecraft:red_tulip"
+    },
+    "8": {
+      "item": "minecraft:red_tulip"
+    }
+  },
+  "result": {
+    "item": "kakan:crown_of_red_tulip_helmet",
+    "count": 1
+  }
+}
