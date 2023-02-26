@@ -1610,7 +1610,7 @@
       "item.kakan.crown_of_poppy_helmet": "ポピーの冠",
       "item.kakan.crown_of_peony_boots": "Crown Of Poppy Boots",
       "item.kakan.crown_of_various_flowers_helmet": "Crown of Various Flowers",
-      "item.kakan.crown_of_azure_bluet_helmet": "Crown of Azure Bluet",
+      "item.kakan.crown_of_azure_bluet_helmet": "ヒナソウの冠",
       "item.kakan.crown_of_peony_chestplate": "Crown Of Poppy Body",
       "item.kakan.crown_of_dandelion_helmet": "タンポポの冠",
       "item.kakan.crown_of_rose_boots": "Crown Of Poppy Boots",
@@ -1683,7 +1683,7 @@
   "workspaceSettings": {
     "modid": "kakan",
     "modName": "KAKAN",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "author": "MCreator, Sawazan",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
