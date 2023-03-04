@@ -8,7 +8,10 @@ displayName="KAKAN"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-authors="MCreator, Sawazan"
+authors="MCreator, Henkyakubi"
+description='''
+Flower Crowns MOD
+'''
 
 [[dependencies.kakan]]
     modId="minecraft"
