@@ -73,7 +73,7 @@ public class CrownOfBlueOrchidItem extends KakanModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(KAKANItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "kakan:textures/models/armor/crown_of_blue_orchid-v2__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "kakan:textures/models/armor/blue-orchid01__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override
